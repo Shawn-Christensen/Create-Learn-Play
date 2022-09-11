@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+h1 {
+      font-family: 'Rowdies', cursive;  
+      font-size:2.5em;
+      color: white;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    }
+
+
+  .hero {
+    background-color: #7da4db;
+    text-align: center;
+  }
+
+
+  .collection > video {
+    display: inline-block;
+    border:1px solid whitesmoke;
+    background: linear-gradient(#256AA5, #202148);
+    margin: 10px;
+    padding: 0;
+    box-shadow: 10px 10px 5px #202148;  
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #7da4db;
+  }
+  
+  .pricecards     {
+  height: 100%;
+  overflow: auto;
+  background-color: #DEEBE9;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 140px 0; 
+    background: linear-gradient(0.25turn, #7da4db, #DEEBE9, #7da4db);
+  }
+  
+  .card {
+    position: relative;
+    min-width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: .5s;
+  }
+  .card:hover {
+    transform:scale(1.1);
+  }
+  .card_red, .card_red .title .fa {
+    background: linear-gradient(-90deg, #202148, #256AA5);
+  }
+  .card_violet, .card_violet .title .fa  {
+    background: linear-gradient(-90deg, #256AA5, #202148);
+  }
+  .card_three, .card_three .title .fa  {
+    background: linear-gradient(-90deg, #202148, #256AA5);
+  }
+  
+  .card:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: rgba(255, 255, 255, .1);
+    z-index: 1;
+    transform: skewY(-5deg) scale(1.5);
+  }
+  
+  .title .fa {
+    color: #fff;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+  }
+  .title h2 {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 28px;
+    z-index: 2;
+  }
+  .price {
+    position: relative;
+    z-index: 2;
+  }
+  .price h4 {
+    margin: 0;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 60px;
+  }
+  .option {
+    position: relative;
+    z-index: 2;
+  }
+  .option ul {
+    margin: 0;
+    padding: 0;
+  }
+  .option ul li {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  .card a {
+    display: block;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    color: #262ff;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto 0;
+    line-height: 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0, .1);
+  }
+  .card a:hover {
+    
+  }
