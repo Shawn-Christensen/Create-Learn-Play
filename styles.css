@@ -132,7 +132,7 @@ h4 {
     position: relative;
     z-index: 2;
     background-color: #fff;
-    color: #262ff;
+    color: black;
     width: 150px;
     height: 40px;
     text-align: center;
@@ -143,7 +143,4 @@ h4 {
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0,0,0, .1);
-  }
-  .card a:hover {
-    
   }
